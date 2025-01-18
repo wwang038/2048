@@ -45,7 +45,7 @@ public class Game {
             if (!won) {
                 for (int j:
                         this.getArray()[i]) {
-                    if (j == 32) {
+                    if (j == 2048) {
 
                         triggerWin = Boolean.TRUE;
                         System.out.println("You've Won!");
@@ -94,7 +94,7 @@ public class Game {
             if (!won) {
                 for (int j:
                         this.getArray()[i]) {
-                    if (j == 32) {
+                    if (j == 2048) {
 
                         triggerWin = Boolean.TRUE;
                         System.out.println("You've Won!");
@@ -142,7 +142,7 @@ public class Game {
             if (!won) {
                 for (int j:
                         this.getArray()[i]) {
-                    if (j == 32) {
+                    if (j == 2048) {
 
                         triggerWin = Boolean.TRUE;
                         System.out.println("You've Won!");
@@ -192,7 +192,7 @@ public class Game {
             if (!won) {
                 for (int j:
                         this.getArray()[i]) {
-                    if (j == 32) {
+                    if (j == 2048) {
                         triggerWin = Boolean.TRUE;
                         System.out.println("You've Won!");
                     }
